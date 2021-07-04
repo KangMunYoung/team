@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class CalculatorEx1 extends JFrame implements ActionListener{
+	String txt = "commit test";
 	Font fnt = new Font("굴림체",Font.BOLD,25);//25-> 글자크기	
 	JTextField tf = new JTextField("0.0");
 	

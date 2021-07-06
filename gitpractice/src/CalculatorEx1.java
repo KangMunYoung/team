@@ -14,7 +14,15 @@ public class CalculatorEx1 extends JFrame implements ActionListener{
 	String txt = "commit test";
 	Font fnt = new Font("굴림체",Font.BOLD,25);//25-> 글자크기	
 	JTextField tf = new JTextField("0.0");
-	
+	/*
+	 * 
+	 * git test code
+	 * 2021-07-06
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
 	JPanel allBtnPane = new JPanel(new BorderLayout());
 	JPanel northPane = new JPanel(new GridLayout(1,3));
 	JPanel centerPane = new JPanel(new GridLayout(4,4));
